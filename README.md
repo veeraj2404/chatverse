@@ -43,7 +43,7 @@ Chatverse is a real-time chat application built using the MERN stack (MongoDB, E
 
 4. Setup Environment Variables:
 
-    # In backend/.env, configure the necessary environment variables (MongoDB URI, JWT Secret, etc.).
+    In backend/.env, configure the necessary environment variables (MongoDB URI, JWT Secret, etc.).
 
     MONGO_URI=your_mongo_connection_string
     JWT_SECRET=your_jwt_secret

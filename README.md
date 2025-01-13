@@ -4,56 +4,71 @@
 
 Chatverse is a real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js), Tailwind CSS, Daisy UI, and Socket.IO. It enables seamless, instant messaging with dynamic chatrooms, robust WebSocket integration, and a modern, user-friendly interface.
 
-## Tech Stack
+# Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS, Daisy UI
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Real-time Communication:** Socket.IO
-- **Styling:** Tailwind CSS, Daisy UI
+## Frontend
+    React.js, Tailwind CSS, Daisy UI
 
-## Features
+## Backend 
+    Node.js, Express.js
 
-- **Real-time Messaging:** Users can send and receive messages instantly using WebSockets.
-- **User Authentication:** Secure user registration and login.
-- **Private and Group Chats:** Chat with individual users or in group chatrooms.
-- **Responsive Design:** A dynamic interface that works on all devices, powered by Tailwind CSS and Daisy UI.
-- **Message Notifications:** Instant notifications for new messages.
-- **User Presence:** Display online/offline status of users.
+## Database 
+    MongoDB
 
-## Installation
+## Real-time Communication
+    Socket.IO
 
-1. Clone the repository:
-    # git clone https://github.com/veeraj2404/chatverse
-    # cd chatverse
+## Styling
+    Tailwind CSS, Daisy UI
 
-2. Install Backend Dependencies:
 
-    In the backend folder:
+# Features
+
+    Users can send and receive messages instantly using WebSockets.
+    Secure user registration and login.
+    Chat with individual users or in group chatrooms.
+    A dynamic interface that works on all devices, powered by Tailwind CSS and Daisy UI.
+    Instant notifications for new messages.
+    Display online/offline status of users.
+
+# Installation
+
+## Clone the repository:
+
+    https://github.com/veeraj2404/chatverse.git
+    cd chatverse
+
+## Install Backend Dependencies:
 
     cd backend
     npm install
 
-3. Install Frontend Dependencies:
-
-    In the frontend folder:
+## Install Frontend Dependencies:
 
     cd frontend
     npm install
 
-4. Setup Environment Variables:
+## Setup Environment Variables:
 
-    In backend/.env, configure the necessary environment variables (MongoDB URI, JWT Secret, etc.).
+Create a .env file in the backend directory and add:
 
-    MONGO_URI=your_mongo_connection_string
-    JWT_SECRET=your_jwt_secret
-    PORT=5001
+    PORT=
+    MONGODB_URL=
+    JWT_SECRET=
+    NODE_ENV="development"
+    CLOUDINARY_CLOUD_NAME=
+    CLOUDINARY_API_KEY=
+    CLOUDINARY_SECRET_KEY=
 
-5. Run the Application:
+## Run the Application:
 
-    Start the backend server:
+Start the backend server:
 
     npm run dev
-    Start the frontend React app:
+    http://localhost:5173
+
+Start the frontend React app:
 
     npm  run dev
+    http://localhost:5001
+    

@@ -65,10 +65,10 @@ Create a .env file in the backend directory and add:
 Start the backend server:
 
     npm run dev
-    http://localhost:5173
+    http://localhost:5001
 
 Start the frontend React app:
 
     npm  run dev
-    http://localhost:5001
+    http://localhost:5173
     

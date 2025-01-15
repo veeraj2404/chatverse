@@ -1,7 +1,9 @@
-export function formatMessageTime(date) {
-    return new Date(date).toLocaleTimeString("en-US", {
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false,
-    });
-}
+export const formatMessageTime = (timestamp) => {
+    const date = new Date(timestamp);
+    const options = {
+        hour: 'numeric',
+        minute: 'numeric',
+        hour12: true,
+    };
+    return new Intl.DateTimeFormat('en-US', options).format(date);
+};
